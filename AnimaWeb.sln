@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeWeb", "Principal\AnimeWeb.csproj", "{503427EA-0430-4F74-9E7E-2D9F5DA05D1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaWeb", "Principal\AnimaWeb.csproj", "{503427EA-0430-4F74-9E7E-2D9F5DA05D1C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetZ.Web.TypeScript", "Web.TypeScript\NetZ.Web.TypeScript.csproj", "{502B98CF-A528-4168-A5F4-F04641BCEE6D}"
 EndProject
@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetZ.SistemaBase", "Sistema
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TypeScript", "TypeScript", "{8C76C269-DEBD-4E1A-9B56-F9BFBECE3A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeWeb.TypeScript", "Principal.TypeScript\AnimeWeb.TypeScript.csproj", "{4E3FD9B6-F2DC-4C64-9AF7-D5CF3CD804AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaWeb.TypeScript", "Principal.TypeScript\AnimaWeb.TypeScript.csproj", "{4E3FD9B6-F2DC-4C64-9AF7-D5CF3CD804AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

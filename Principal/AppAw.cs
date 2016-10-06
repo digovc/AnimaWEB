@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using NetZ.Web;
 using NetZ.Web.Server;
 
-namespace AnimeWeb
+namespace AnimaWeb
 {
-    public sealed class AppAnimeWeb : AppWeb
+    public sealed class AppAw : AppWeb
     {
         #region Constantes
 
@@ -13,9 +12,9 @@ namespace AnimeWeb
 
         #region Atributos
 
-        private static AppAnimeWeb _i;
+        private static AppAw _i;
 
-        public new static AppAnimeWeb i
+        public new static AppAw i
         {
             get
             {
@@ -24,7 +23,7 @@ namespace AnimeWeb
                     return _i;
                 }
 
-                _i = new AppAnimeWeb();
+                _i = new AppAw();
 
                 return _i;
             }
@@ -34,7 +33,7 @@ namespace AnimeWeb
 
         #region Construtores
 
-        private AppAnimeWeb() : base("AnimeWeb")
+        private AppAw() : base("AnimeWeb")
         {
         }
 
@@ -44,12 +43,12 @@ namespace AnimeWeb
 
         protected override ConfigWeb getObjConfig()
         {
-            return ConfigAnimeWeb.i;
+            return ConfigAw.i;
         }
 
         protected override void inicializarLstSrv(List<ServerBase> lstSrv)
         {
-            lstSrv.Add(ServerHttpAnimeWeb.i);
+            lstSrv.Add(ServerHttpAw.i);
         }
 
         #endregion Métodos

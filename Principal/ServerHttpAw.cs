@@ -1,9 +1,9 @@
-﻿using AnimeWeb.Html.Pagina;
+﻿using AnimaWeb.Html.Pagina;
 using NetZ.Web.Server;
 
-namespace AnimeWeb
+namespace AnimaWeb
 {
-    public sealed class ServerHttpAnimeWeb : ServerHttp
+    public sealed class ServerHttpAw : ServerHttp
     {
         #region Constantes
 
@@ -11,9 +11,9 @@ namespace AnimeWeb
 
         #region Atributos
 
-        private static ServerHttpAnimeWeb _i;
+        private static ServerHttpAw _i;
 
-        public static ServerHttpAnimeWeb i
+        public static ServerHttpAw i
         {
             get
             {
@@ -22,7 +22,7 @@ namespace AnimeWeb
                     return _i;
                 }
 
-                _i = new ServerHttpAnimeWeb();
+                _i = new ServerHttpAw();
 
                 return _i;
             }
@@ -32,7 +32,7 @@ namespace AnimeWeb
 
         #region Construtores
 
-        private ServerHttpAnimeWeb() : base("Servidor HTTP da aplicação AnimeWeb")
+        private ServerHttpAw() : base("Servidor HTTP da aplicação AnimeWeb")
         {
         }
 
@@ -49,7 +49,7 @@ namespace AnimeWeb
                 return objResposta;
             }
 
-            return new Resposta(objSolicitacao).addHtml(new PagPrincipalAnimeWeb());
+            return new Resposta(objSolicitacao).addHtml(new PagPrincipalAw());
         }
 
         #endregion Métodos

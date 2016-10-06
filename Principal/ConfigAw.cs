@@ -1,8 +1,8 @@
 ﻿using NetZ.Web;
 
-namespace AnimeWeb
+namespace AnimaWeb
 {
-    public sealed class ConfigAnimeWeb : ConfigWeb
+    public sealed class ConfigAw : ConfigWeb
     {
         #region Constantes
 
@@ -10,9 +10,9 @@ namespace AnimeWeb
 
         #region Atributos
 
-        private static ConfigAnimeWeb _i;
+        private static ConfigAw _i;
 
-        public new static ConfigAnimeWeb i
+        public new static ConfigAw i
         {
             get
             {
@@ -21,7 +21,7 @@ namespace AnimeWeb
                     return _i;
                 }
 
-                _i = new ConfigAnimeWeb();
+                _i = new ConfigAw();
 
                 return _i;
             }
@@ -31,7 +31,7 @@ namespace AnimeWeb
 
         #region Construtores
 
-        private ConfigAnimeWeb()
+        private ConfigAw()
         {
         }
 

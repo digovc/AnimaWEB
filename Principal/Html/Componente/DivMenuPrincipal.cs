@@ -1,6 +1,6 @@
 ﻿using NetZ.Web.Html.Componente;
 
-namespace AnimeWeb.Html.Componente
+namespace AnimaWeb.Html.Componente
 {
     public class DivMenuPrincipal : ComponenteHtml
     {

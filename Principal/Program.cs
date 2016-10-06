@@ -1,19 +1,19 @@
 ﻿using System;
 
-namespace AnimeWeb
+namespace AnimaWeb
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-            AppAnimeWeb.i.inicializarServidor();
+            AppAw.i.inicializarServidor();
 
             Console.WriteLine("Servidor inicializado.");
             Console.WriteLine("______________________");
             Console.WriteLine("Digite qualquer tecla para fechar...");
             Console.ReadKey();
 
-            AppAnimeWeb.i.pararServidor();
+            AppAw.i.pararServidor();
         }
     }
 }

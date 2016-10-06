@@ -1,9 +1,9 @@
-﻿using AnimeWeb.Html.Componente;
+﻿using AnimaWeb.Html.Componente;
 using NetZ.Web.Html.Pagina;
 
-namespace AnimeWeb.Html.Pagina
+namespace AnimaWeb.Html.Pagina
 {
-    public sealed class PagPrincipalAnimeWeb : PagPrincipal
+    public sealed class PagPrincipalAw : PagPrincipal
     {
         #region Constantes
 
@@ -32,7 +32,7 @@ namespace AnimeWeb.Html.Pagina
 
         #region Construtores
 
-        public PagPrincipalAnimeWeb() : base("Principal")
+        public PagPrincipalAw() : base("Principal")
         {
         }
 
